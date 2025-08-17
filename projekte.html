@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Highlights – Dan Christoff</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div id="gate" aria-live="polite" style="display:none">
+    <div class="panel">
+      <h2>Privater Bewerbungslink</h2>
+      <p>Bitte scanne den QR-Code oder gib den Zugangscode ein.</p>
+      <form id="gateForm">
+        <label for="pin">Zugangscode</label>
+        <input id="pin" type="text" inputmode="text" autocomplete="off" placeholder="Code eingeben">
+        <button class="btn primary" type="submit">Öffnen</button>
+        <p class="muted" style="margin-top:8px;font-size:12px">Hinweis: einfache Zugangsbremse – nicht für sensible Daten.</p>
+      </form>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap">
+      <nav aria-label="Navigation">
+        <div class="brand"><strong>Dan Christoff</strong></div>
+        <div class="navlinks">
+          <a href="index.html">Über mich</a>
+          <a href="projekte.html">Highlights</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="#" id="logout" class="muted">Logout</a>
+          <button id="themeToggle" class="btn ghost" aria-label="Dark Mode umschalten">🌗</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="wrap fade-in" style="display:none">
+    
+<section>
+  <h1>Highlights</h1>
+  <p class="muted">Ausgewählte Projekte & Schwerpunkte.</p>
+  <div class="grid cols-3" style="margin-top:16px">
+    <article class="card lift">
+      <h2>CMD-Heimübungsprogramm</h2>
+      <p>6-Wochen-Programm begleitet; wöchentliche Messungen (Schmerz, Schlafbeeinträchtigung, Stimmung); gute Adhärenz.</p>
+    </article>
+    <article class="card lift">
+      <h2>Patientenedukation</h2>
+      <p>Einfach erklärbare Übungen und Strategien, die Patient*innen wirklich anwenden – mit klarer Dokumentation.</p>
+    </article>
+    <article class="card lift">
+      <h2>Team & Kommunikation</h2>
+      <p>Ruhiger, freundlicher Umgang; strukturierte Abläufe; schnelle Einarbeitung in neue Praxisumgebungen.</p>
+    </article>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="wrap" style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap">
+      <div>© <span id="year"></span> · Dan Christoff</div>
+      <div>Gemacht mit ❤️ und Fokus auf Menschen</div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

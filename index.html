@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bewerbung – Dan Christoff, Physiotherapeut</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div id="gate" aria-live="polite" style="display:none">
+    <div class="panel">
+      <h2>Privater Bewerbungslink</h2>
+      <p>Bitte scanne den QR-Code oder gib den Zugangscode ein.</p>
+      <form id="gateForm">
+        <label for="pin">Zugangscode</label>
+        <input id="pin" type="text" inputmode="text" autocomplete="off" placeholder="Code eingeben">
+        <button class="btn primary" type="submit">Öffnen</button>
+        <p class="muted" style="margin-top:8px;font-size:12px">Hinweis: einfache Zugangsbremse – nicht für sensible Daten.</p>
+      </form>
+    </div>
+  </div>
+
+  <header>
+    <div class="wrap">
+      <nav aria-label="Navigation">
+        <div class="brand"><strong>Dan Christoff</strong></div>
+        <div class="navlinks">
+          <a href="index.html">Über mich</a>
+          <a href="projekte.html">Highlights</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="#" id="logout" class="muted">Logout</a>
+          <button id="themeToggle" class="btn ghost" aria-label="Dark Mode umschalten">🌗</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="wrap fade-in" style="display:none">
+    
+<section class="hero">
+  <div class="inner">
+    <div class="grid cols-2">
+      <div>
+        <h1>Hi, ich bin Dan Christoff.</h1>
+        <p class="muted">Physiotherapeut – kommunikativ, strukturiert und evidenzbasiert.</p>
+        <div style="margin:10px 0">
+          <span class="pill">Kommunikativ</span>
+          <span class="pill">Bachelor Physiotherapie (SRH Karlsruhe)</span>
+          <span class="pill">Fortbildungen: MLD & Flossing</span>
+        </div>
+        <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn primary" href="kontakt.html">📬 Kontakt</a>
+          <a class="btn" href="cv.pdf" download>📄 PDF-Lebenslauf</a>
+        </div>
+      </div>
+      <div class="card lift">
+        <!-- Ersetze das Div unten durch <img src="foto.jpg" alt="Portrait von Dan Christoff" class="avatar" style="object-fit:cover"> -->
+        <div class="avatar" aria-hidden="true">DC</div>
+        <p class="muted" style="text-align:center;margin-top:10px">Platzhalter-Foto (kannst du später ersetzen)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="grid cols-2">
+    <article class="card lift">
+      <h2>Über mich</h2>
+      <p>
+        Ich bin Physiotherapeut mit einem klaren Fokus: verständlich erklären, gemeinsam praktikable Lösungen finden und Fortschritte sauber dokumentieren.
+        Kolleg*innen schätzen an mir die ruhige, freundliche Art und meine strukturierte Arbeitsweise.
+        Aktuell vertiefe ich mein Wissen im Bachelorstudium an der SRH Karlsruhe.
+      </p>
+    </article>
+    <article class="card lift">
+      <h2>Werdegang (Kurz)</h2>
+      <ul class="timeline">
+        <li><strong>Studium</strong> · SRH Karlsruhe – Bachelor Physiotherapie (laufend)</li>
+        <li><strong>Ausbildung</strong> · Staatlich anerkannter Physiotherapeut</li>
+        <li><strong>Schule</strong> · Abitur an der Waldorfschule</li>
+        <li><strong>Fortbildungen</strong> · MLD · Flossing</li>
+      </ul>
+      <p class="muted" style="margin-top:6px">Jahreszahlen kannst du bei Bedarf ergänzen.</p>
+    </article>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="wrap" style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap">
+      <div>© <span id="year"></span> · Dan Christoff</div>
+      <div>Gemacht mit ❤️ und Fokus auf Menschen</div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
